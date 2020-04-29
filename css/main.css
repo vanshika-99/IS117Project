@@ -14,6 +14,7 @@ body {
 .img-box {
     display: grid;
     height: 100%
+    width: 90%
 }
 
 .center-fit {
@@ -61,15 +62,16 @@ body {
 
 .edited-pics1 {
     padding-bottom: 60px;
-    clear:both;
 }
 
 .before-pic1, .before-pic2 {
     float: left;
+    padding: 50px 30px;
 }
 
 .after-pic1, .after-pic2 {
     float: right;
+    padding: 50px 30px;
 }
 
 
