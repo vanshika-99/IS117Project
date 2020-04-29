@@ -9,6 +9,7 @@ body {
     background-color: lightsteelblue;
 }
 
+
 /*home page*/
 .img-box {
     display: grid;
@@ -25,8 +26,15 @@ body {
     padding: 5%;
 }
 
-/* bullet lists */
-.bullet-lists {
+
+/* edit page*/
+.edit-title {
+    text-align: center;
+    font-family: Calibri Light, Arial;
+}
+
+
+.bullet-lists, .bullet-lists2 {
     font-family: Calibri Light, Arial;
     font-size: 14pt;
 
@@ -35,11 +43,65 @@ body {
 .list-1 {
     float: left;
     width: 50%;
+    padding: 0px 10px;
 }
 
 .list-2 {
     float: right;
     width: 50%;
+    padding: 0px 10px;
+}
+
+.edit-text {
+    padding-top: 150px;
+    align-text: justify;
+    font-family: Calibri Light, Arial;
+    font-size: 14pt;
+}
+
+.edited-pics1 {
+    padding-bottom: 60px;
+    clear:both;
+}
+
+.before-pic1, .before-pic2 {
+    float: left;
+}
+
+.after-pic1, .after-pic2 {
+    float: right;
+}
+
+
+/* tips page*/
+.tips-list {
+    float: left;
+    width: 50%;
+    padding: 0px 10px;
+}
+
+.tips-list2 {
+    float: right;
+    width: 50%;
+    padding: 0px 10px;
+}
+
+
+.tips-text {
+    padding-top: 170px;
+    align-text: justify;
+    font-family: Calibri Light, Arial;
+    font-size: 14pt;
+}
+
+.pic1 {
+    float: left;
+    padding-bottom: 50px;
+}
+
+.pic2 {
+    float:right;
+    padding-bottom: 50px;
 }
 
 /* about me page */
@@ -58,7 +120,7 @@ body {
 }
 
 .me-text {
-    max-width: 60%;
+    max-width: 50%;
     text-align: left;
     padding-left: 5px;
     float: right;
@@ -71,6 +133,7 @@ body {
     width: 50%;
 }
 
+
 /* contact me page */
 .form-group {
     padding: 0px;
@@ -82,6 +145,7 @@ body {
     font-family: Calibri Light, Arial;
 }
 
+
 /* footer */
 .footer {
     position: fixed;
@@ -92,6 +156,5 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    font-family: Calibri, Arial;
     font-size: 0.5rem;
 }
