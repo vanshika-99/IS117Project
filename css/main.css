@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 body {
@@ -14,7 +14,6 @@ body {
 .img-box {
     display: grid;
     height: 100%;
-    width: 90%
 }
 
 .center-fit {
@@ -66,12 +65,12 @@ body {
 
 .before-pic1, .before-pic2 {
     float: left;
-    padding: 40px 20px;
+    padding: 50px 30px;
 }
 
 .after-pic1, .after-pic2 {
     float: right;
-    padding: 40px 20px;
+    padding: 50px 30px;
 }
 
 
@@ -98,11 +97,11 @@ body {
 
 .pic1 {
     float: left;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .pic2 {
-    float: right;
+    float:right;
     padding-bottom: 50px;
 }
 
